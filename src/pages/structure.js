@@ -1,4 +1,6 @@
-const homePage = () => {
+// create page structure: 3 section, header, main and footer
+// main will be change when switch pages
+const structure = () => {
   const createEle = function (tag, classText, appendTo) {
     const element = document.createElement(tag);
     element.classList.add(classText);
@@ -29,4 +31,4 @@ const homePage = () => {
   // home.appendChild(footer);
 };
 
-export default homePage;
+export default structure;

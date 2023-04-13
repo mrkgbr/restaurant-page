@@ -1,3 +1,5 @@
-import homePage from "./home.js";
+import structure from "./pages/structure.js";
+import header from "./pages/header.js";
 
-homePage();
+structure();
+header();
