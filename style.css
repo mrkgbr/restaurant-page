@@ -13,6 +13,7 @@ body {
   /* min-height: 100%; */
   min-width: 100%;
   /* display: flex; */
+  background-color: rgba(245, 222, 179, 0.432);
 }
 
 #content {
@@ -53,4 +54,17 @@ body {
 .button {
   width: 80px;
   height: 30px;
+  background-color: coral;
+  color: white;
+  font-style: italic;
+  border-radius: 5px;
+  border: none;
+}
+
+.button:hover {
+  background-color: rgba(255, 127, 80, 0.85);
+}
+
+.button:active {
+  transform: scale(1.1);
 }
