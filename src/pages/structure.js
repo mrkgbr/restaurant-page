@@ -1,5 +1,5 @@
 // create page structure: 3 section, header, main and footer
-// main will be change when switch pages
+// main will be changed when loading pages
 const structure = () => {
   const createEle = function (tag, classText, appendTo) {
     const element = document.createElement(tag);
@@ -9,10 +9,10 @@ const structure = () => {
   };
 
   const content = document.getElementById("content");
-  const home = createEle("div", "home", content);
-  createEle("div", "header", home);
-  createEle("div", "main", home);
-  createEle("div", "footer", home);
+  // const structure = createEle("div", "structure", content);
+  createEle("div", "header", content);
+  createEle("div", "main", content);
+  createEle("div", "footer", content);
 
   // const home = document.createElement("div");
   // home.setAttribute("id", "home");
