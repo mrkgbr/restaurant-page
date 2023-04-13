@@ -1,5 +1,3 @@
-alert("Testing");
-console.log("Testing too");
+import homePage from "./home.js";
 
-const content = document.querySelector("#content");
-content.textContent = "Hello Restaurant!";
+homePage();
