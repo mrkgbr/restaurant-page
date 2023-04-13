@@ -73,10 +73,27 @@ body {
 .logo {
   width: 150px;
 }
+
 .logo img {
   height: 150px;
 }
 
 .info {
   width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.status {
+  color: green;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.call {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  font-size: 1.1rem;
 }

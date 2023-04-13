@@ -31,7 +31,10 @@ const header = () => {
   contactPic.setAttribute("src", "./images/icons8-location-100.png");
   createEle("button", "button", button, "button-3").appendChild(contactPic);
   // info
-  createEle("div", "info", header, "").textContent = "Info";
+  const info = createEle("div", "info", header, "");
+  createEle("p", "status", info, "").textContent = "Currently OPEN";
+  createEle("p", "call", info, "").textContent = "Call US NOW!";
+  createEle("p", "phone-nr", info, "").textContent = "+98 7654 3210";
 };
 
 export default header;
