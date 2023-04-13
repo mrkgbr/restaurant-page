@@ -11,14 +11,25 @@ const header = () => {
     return element;
   };
   // adding elements
-  // logo
   const header = document.querySelector(".header");
-  createEle("div", "logo", header, "").textContent = "Logo";
+  // logo
+  const logoPic = document.createElement("img");
+  logoPic.setAttribute("src", "./images/fast-food.png");
+  createEle("div", "logo", header, "").appendChild(logoPic);
   // buttons
   const button = createEle("div", "buttons", header, "");
-  createEle("button", "button", button, "button-1").textContent = "Home";
-  createEle("button", "button", button, "button-2").textContent = "Menu";
-  createEle("button", "button", button, "button-3").textContent = "Contact";
+  // home
+  const homePic = document.createElement("img");
+  homePic.setAttribute("src", "./images/icons8-home-page-100.png");
+  createEle("button", "button", button, "button-1").appendChild(homePic);
+  // menu
+  const menuPic = document.createElement("img");
+  menuPic.setAttribute("src", "./images/icons8-food-100.png");
+  createEle("button", "button", button, "button-2").appendChild(menuPic);
+  // contact
+  const contactPic = document.createElement("img");
+  contactPic.setAttribute("src", "./images/icons8-location-100.png");
+  createEle("button", "button", button, "button-3").appendChild(contactPic);
   // info
   createEle("div", "info", header, "").textContent = "Info";
 };
