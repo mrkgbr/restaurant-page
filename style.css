@@ -61,7 +61,18 @@ body {
   padding: 25px;
 }
 
-.home-container {
+.map {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.map-header {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.home-container,
+.contact-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
