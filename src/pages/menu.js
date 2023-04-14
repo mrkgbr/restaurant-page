@@ -15,7 +15,7 @@ const menu = () => {
   createNewElement(
     "p",
     menuContainer,
-    "Best hamburger you ever eat! Try it!",
+    "Best hamburger you've ever had! Try it!",
     "",
     ["hamburger-text"]
   );
